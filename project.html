@@ -1,0 +1,219 @@
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<nav>
+		<div class="navigata">
+			<a href="#" class="navigata-brand">МБ</a>
+			<button class="manyushka-alugan">
+				<i class="fas fa-align-center fa-lg"></i>
+			</button>
+			<div class="navigata-collapse">
+				<ul class="navigata-nav">
+					<li class="nav-item">
+						<a href="#Osebe">О себе</a>
+					</li>
+					<li class="nav-item">
+						<a href="#dost">Мои достижения</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact">Контакты</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<script>
+			$(document).ready(function () {
+				$( ".manyushka-alugan" ).click(function() {
+					$( '.navigata-collapse' ).toggleClass( "collapse");
+				  });
+			});
+	</script>
+	<style type="text/css">
+	.navigata {
+	   width: 100%;
+	   font-family: 'Segoe UI';
+	   background-color: #0d1e46;
+	   color: #f3f3f3;
+	  padding: 12px;
+	}
+	.navigata-brand {
+	  float: left;
+	  text-decoration: none;
+	  font-size: 24px;
+	  padding: 0.4em 1.4em;
+	  color: #fffcdc;
+	}
+	.navigata-nav{
+	  margin: 0%;
+	}
+	.navigata .navigata-nav .nav-item{
+	  display: inline;
+	  list-style: none;
+	}
+	   
+	.navigata .navigata-nav .nav-item a {
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 18px;
+	  padding: 0.9em 0.7em;
+	  color: #fff8e6;
+	}
+
+	.navigata .navigata-nav .nav-item a:hover {
+	  color: #eae8e3;
+	  text-shadow: 0 0 5px #fbf8f8, 0 0 10px #f5f0f0, 0 0 15px #f5f3f3, 0 0 20px #9a1a9a, 0 0 35px #af159c, 0 0 40px #cc15a1, 0 0 50px #a51097, 0 0 75px #a0139c;
+	}
+
+	.manyushka-alugan {
+	  float: right;
+	  width: 50px;
+	  height: 32px;
+	  margin: 0.6em 2em;
+	  background-color: rgba(0, 0, 0, 0);
+	  color: rgba(255, 255, 255, 0.7);
+	  border: 1px solid rgba(247, 247, 247, 0.3);
+	  border-radius: 3px;
+	  cursor: pointer;
+	  display: none;
+	}
+	.manyushka-alugan:hover {
+	  color: rgb(189, 235, 253);
+	}
+
+	@media screen and (max-width:456px){
+	  .navigata-brand{
+		display: inline-block;
+		float: none;
+	  }
+	  .manyushka-alugan{
+		display: inline-block;
+  }  
+  .navigata-nav{
+	color: white;
+	padding: 0%;
+  }
+  .navigata .navigata-nav .nav-item{
+	display: block;
+	list-style: none;
+  }
+  .navigata-collapse{
+	height: 0vh;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	transition: all 499ms ease;
+  }
+  .collapse{
+	height: 100vh;
+  }
+}
+</style>
+</head>
+
+<head>
+  <title>Бобряшов Матвей - дизайнер/кастомер одежды</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style type="text/css">
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 25px;
+	  margin-bottom: 35px;
+    }
+	h4 {
+	  font-size: 22px;
+	}
+	A {
+    color: black; 
+   }
+   A:active {
+    color: blue;
+   }
+  </style>
+</head>
+
+<body style="background-color: rgb(235,221,203)">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 id="Osebe">Бобряшов Матвей</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <p>Я студент Института физики направления "ИСИТ". В свободное время занимаюсь дизайном одежды. Читаю художественную и профессиональную литературу.</p>
+        <p> Себя могу охарактеризовать как отвественный,целеустремлённый, организованный , дисциплинированный парень.</p>
+		<p> Так же постоянно саморазвиваюсь, пробую что-то новое каждую неделю,чтобы расширять своё мировозрение.</p>
+		<p> По поводу сотрудничества пишите на почту или в Instagram.</p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <img src="https://sun7-14.userapi.com/impf/wNxs28svOMOfLY_0t79deA4KOexvXjaaUYIB9w/KXS25TV8sds.jpg?size=1727x2160&quality=96&sign=dbee675f5f7c4cd2f3a6558a662211b4&type=album">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 id="dost">Мои достижения</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+        <h4><a href="https://www.instagram.com/p/CXn53ypKns_/">Кастом шортов</a></h4>
+        <h4><a href="https://www.instagram.com/p/CbXJq6QKc77/">Кастом джинсов</a></h4>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+        <h4><a href="https://www.instagram.com/p/CWYtqAELj-V/">Кастом кепки</a></h4>
+        <h4><a href="https://www.instagram.com/p/CaPjnK6KFYL/">Кастом футболки</a></h4>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+        <h4><a href="http:sd/">Свой бренд soon....</a></h4>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 id="contact">Контакты для связи</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h4>Телефон: +7 (987) 389-35-55</h4>
+        <h4>Почта: <a href="mailto: matvei.bobriashov@yandex.ru">matvei.bobriashov@yandex.ru</a></h4>
+        <h4>Discord: 愚かに休んでいる#3750</h4>
+        <h4>Instagram @boriashovmatv</h4>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
